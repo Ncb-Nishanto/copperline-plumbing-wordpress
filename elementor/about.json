@@ -42,7 +42,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p>Our fictional Portland crew is built around careful diagnostics, clear quotes, and tidy residential work.</p>"
+            "editor": "<p>Copperline is built around careful diagnostics, clear quotes, and tidy residential work.</p>"
           },
           "elements": [],
           "isInner": false
@@ -215,7 +215,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p>Copperline serves Portland, Beaverton, and Milwaukie in this fictional local service area.</p>"
+            "editor": "<p>We serve homeowners in Portland, Beaverton, and Milwaukie, Oregon.</p>"
           },
           "elements": [],
           "isInner": false

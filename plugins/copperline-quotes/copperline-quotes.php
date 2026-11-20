@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Copperline Quotes
- * Description: Validates a demo quote form and stores submissions in the local WordPress database.
+ * Description: Validates Copperline quote requests and stores submissions in the local WordPress database.
  * Version: 1.0.0
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -121,9 +121,9 @@ final class Copperline_Quotes
         ?>
         <form class="cl-form" id="quote" action="<?php echo esc_url(get_permalink() . '#quote'); ?>" method="post" aria-labelledby="cl-form-title">
             <h2 id="cl-form-title">Request a quote</h2>
-            <p>Use fictional contact details. Requests are saved to this WordPress demo.</p>
+            <p>Use sample contact details. Requests are stored on this WordPress installation.</p>
             <?php if ($received) : ?>
-                <div class="cl-status" role="status"><strong>Quote request received.</strong> Your demo request was saved.</div>
+                <div class="cl-status" role="status"><strong>Quote request received.</strong> Your request was saved.</div>
             <?php elseif (self::$errors) : ?>
                 <div class="cl-status cl-error" role="alert">
                     <?php if (isset(self::$errors['form'])) : ?>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Run with wp eval-file scripts/seed.php from a dedicated demo installation.
+ * Run with wp eval-file scripts/seed.php from a dedicated local installation.
  */
 
 if (!class_exists('Elementor\Plugin') || !class_exists('Copperline_Quotes') || 'copperline' !== get_stylesheet()) {
@@ -12,7 +12,7 @@ $pages = [];
 foreach (['home' => 'Home', 'services' => 'Services', 'about' => 'About', 'contact' => 'Contact'] as $slug => $title) {
     $page = get_page_by_path($slug);
     if ($page && !get_post_meta($page->ID, '_copperline_seed', true)) {
-        WP_CLI::error("A page with slug {$slug} already exists. Use a fresh demo site.");
+        WP_CLI::error("A page with slug {$slug} already exists. Use a fresh WordPress installation.");
     }
     if (!$page) {
         $id = wp_insert_post([

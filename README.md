@@ -1,20 +1,29 @@
 # Copperline Plumbing
 
-Copperline is a fictional residential plumbing business in Portland, Oregon. The WordPress demo has four Elementor pages, a responsive navigation menu, and a local quote workflow from the home page through confirmation.
+**Residential plumbing website · WordPress and Elementor**
 
-## Portfolio walkthrough
+Copperline’s website gives Portland-area homeowners a way to find the right plumbing service and request a quote from their phone. The four-page site introduces the services and the crew, then leads visitors to a short quote form with a clear confirmation.
 
-1. Open Home and browse Services and About. At mobile width, open the menu and use the persistent header quote button.
-2. Click **Request a quote**. Try leaving a required field blank, then submit with fictional details such as `Taylor Example`, `taylor@example.test`, and ZIP code `97201`. Choose Leak or pipe repair and describe a slow drip below a kitchen sink.
-3. Confirm the success message, then check **Quote Requests** in WordPress admin. The plugin validates fields and a WordPress nonce at the server, stores a private record, and redirects after a successful POST. It sends no email.
-4. Open any page with **Edit with Elementor**. The headlines, copy, layout containers, and buttons use free widgets. The photo and form use the free Shortcode widget.
+![Copperline Plumbing homepage](screenshots/desktop-home.png)
+
+## Project brief
+
+Make it easy for a homeowner to tell whether Copperline handles their job and to request an estimate. Use a responsive layout with a visible quote button and give site editors control over the page content in Elementor Free.
+
+## Implementation
+
+- A custom WordPress theme provides the responsive header, menu, and quote links.
+- Home, Services, About, and Contact use editable Elementor containers and free widgets. The hero photo and quote form are placed with the Shortcode widget.
+- The quote plugin validates fields and a WordPress nonce on the server, saves a private record under **Quote Requests**, and redirects to a confirmation after a successful POST. Requests stay on the installation.
+
+This is an independent portfolio project for a fictional Portland plumbing brand.
 
 ## Run locally
 
 Use a fresh local WordPress installation with PHP 8.1+ and MySQL or MariaDB. Enable the usual WordPress PHP extensions including mbstring. Create a local admin account and run these commands from the WordPress root. Set `PROJECT` to the absolute path of this checkout. On Windows, run the commands in Git Bash or copy the two directories with File Explorer before using WP-CLI.
 
 ```sh
-PROJECT="/absolute/path/to/home-services-wordpress-demo"
+PROJECT="/absolute/path/to/copperline-plumbing-wordpress"
 cp -R "$PROJECT/theme/copperline" wp-content/themes/
 cp -R "$PROJECT/plugins/copperline-quotes" wp-content/plugins/
 wp plugin install elementor --activate
@@ -24,6 +33,8 @@ wp eval-file "$PROJECT/scripts/seed.php"
 ```
 
 Use the URL printed by the seed script. For pretty permalinks, run WordPress on a local stack with URL rewrites enabled, such as Local, Apache with mod_rewrite, or a WordPress Docker environment. The seed script leaves existing Elementor content on its seeded pages in place when rerun. It will stop if a same-slug page belongs to another site setup.
+
+To try the quote journey, submit sample details such as `Taylor Example`, `taylor@example.test`, and ZIP code `97201`. Choose **Leak or pipe repair** and describe a slow drip below a kitchen sink. Check the confirmation and the saved entry under **Quote Requests** in WordPress admin.
 
 ## Verification
 

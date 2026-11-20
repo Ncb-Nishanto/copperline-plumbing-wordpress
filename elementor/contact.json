@@ -152,7 +152,7 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Demo business hours",
+                    "title": "Business hours",
                     "header_size": "h3"
                   },
                   "elements": [],
