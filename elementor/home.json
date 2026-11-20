@@ -1,0 +1,346 @@
+{
+  "version": "0.4",
+  "title": "Copperline Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "000000a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-hero",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "0000007",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-hero-copy",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Residential plumbing in Portland",
+                "header_size": "p",
+                "_css_classes": "cl-kicker"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "0000002",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Plumbing done right.",
+                "header_size": "h1"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "0000003",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>From a stubborn drain to a water heater that’s gone cold, Copperline helps you understand the problem and choose a practical fix.</p>"
+              },
+              "elements": [],
+              "isInner": false
+            },
+            {
+              "id": "0000006",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-actions",
+                "html_tag": "div",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000004",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Request a quote",
+                    "link": {
+                      "url": "/contact/#quote",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "_css_classes": "cl-button"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000005",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Explore services",
+                    "link": {
+                      "url": "/services/",
+                      "is_external": "",
+                      "nofollow": ""
+                    },
+                    "_css_classes": "cl-button cl-secondary"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0000009",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-hero-media",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000008",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[copperline_hero_photo]"
+              },
+              "elements": [],
+              "isInner": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0000018",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-section",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000000b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Repairs &amp; installations",
+            "header_size": "p",
+            "_css_classes": "cl-kicker"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000000c",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "How we can help",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000000d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Start with the symptom or the project you have in mind.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000017",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-grid",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000010",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "000000e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Leak &amp; pipe repair",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "000000f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>From a dripping joint to a damaged supply line, we find the source and explain what it takes to stop the leak.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000013",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000011",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Drain clearing",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000012",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We diagnose slow sinks, showers, and tubs, clear the blockage, and share practical advice to help prevent a repeat.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000016",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000014",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Water heater service",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000015",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Troubleshooting, maintenance, and replacement options for conventional tank and tankless water heaters.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000001c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-band",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "0000019",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Planning a repair?",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000001a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Tell us what you’re seeing, when it started, and which fixture is affected. We’ll use those details to scope the job.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000001b",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Request a quote",
+            "link": {
+              "url": "/contact/#quote",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "_css_classes": "cl-button"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}

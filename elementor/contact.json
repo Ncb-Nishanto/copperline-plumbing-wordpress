@@ -1,0 +1,179 @@
+{
+  "version": "0.4",
+  "title": "Copperline Contact",
+  "type": "page",
+  "content": [
+    {
+      "id": "0000051",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-page-intro",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000004e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact Copperline",
+            "header_size": "p",
+            "_css_classes": "cl-kicker"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000004f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tell us what needs fixing.",
+            "header_size": "h1"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000050",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Share the basics of your plumbing issue or planned installation to get the quote process started.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    },
+    {
+      "id": "000005c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-section",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000005b",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-contact-grid",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000053",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-copy",
+                "html_tag": "div",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000052",
+                  "elType": "widget",
+                  "widgetType": "shortcode",
+                  "settings": {
+                    "shortcode": "[copperline_quote_form]"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "000005a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-copy",
+                "html_tag": "div",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000054",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service area",
+                    "header_size": "h2"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000055",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Portland, Beaverton, and Milwaukie, Oregon.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000056",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "What to include",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000057",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Mention where you see the issue, when it started, and whether any other fixtures are affected.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000058",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Demo business hours",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000059",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Monday–Friday, 8 am–5 pm Pacific.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}

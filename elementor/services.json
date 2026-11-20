@@ -1,0 +1,345 @@
+{
+  "version": "0.4",
+  "title": "Copperline Services",
+  "type": "page",
+  "content": [
+    {
+      "id": "0000020",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-page-intro",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000001d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Copperline Plumbing",
+            "header_size": "p",
+            "_css_classes": "cl-kicker"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000001e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing services",
+            "header_size": "h1"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000001f",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Residential diagnostics, repairs, and installations across Portland and nearby neighborhoods.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    },
+    {
+      "id": "0000035",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-section",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "0000021",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Find the right service",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000034",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-grid",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000024",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000022",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Leak &amp; pipe repair",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000023",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>From a dripping joint to a damaged supply line, we find the source and explain what it takes to stop the leak.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000027",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000025",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Drain clearing",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000026",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We diagnose slow sinks, showers, and tubs, clear the blockage, and share practical advice to help prevent a repeat.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "000002a",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000028",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Water heater service",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000029",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Troubleshooting, maintenance, and replacement options for conventional tank and tankless water heaters.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "000002d",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "000002b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Fixture installation",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "000002c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Replace a worn faucet, toilet, or shutoff valve with a fixture that suits your space and daily routine.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000030",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "000002e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Water pressure checks",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "000002f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Narrow down changes in water pressure by checking fixtures, supply valves, and accessible pipework.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000033",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000031",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Pre-renovation walkthroughs",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000032",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Talk through fixture locations, shutoffs, and plumbing constraints before a kitchen or bathroom update.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0000039",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-band",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "0000036",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Unsure where the problem starts?",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000037",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Describe what changed and which rooms are affected. Choose Something else in the quote form if you’re unsure which service fits.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000038",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Request a quote",
+            "link": {
+              "url": "/contact/#quote",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "_css_classes": "cl-button"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}

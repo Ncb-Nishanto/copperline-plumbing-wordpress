@@ -1,0 +1,243 @@
+{
+  "version": "0.4",
+  "title": "Copperline About",
+  "type": "page",
+  "content": [
+    {
+      "id": "000003d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-page-intro",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000003a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "About Copperline",
+            "header_size": "p",
+            "_css_classes": "cl-kicker"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000003b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Straight answers for home plumbing.",
+            "header_size": "h1"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000003c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Our fictional Portland crew is built around careful diagnostics, clear quotes, and tidy residential work.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    },
+    {
+      "id": "0000049",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-section",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000003e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What to expect on a visit",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "0000048",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "css_classes": "cl-grid",
+            "html_tag": "div",
+            "content_width": "full",
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "0000041",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "000003f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "We listen first",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000040",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Tell us when the issue began and what you’ve already noticed. We’ll confirm which fixtures or rooms are affected.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000044",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000042",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "We explain the options",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000043",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>After checking the affected fixture and accessible piping, we walk through the repair choices and agree on the scope.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            },
+            {
+              "id": "0000047",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "css_classes": "cl-card",
+                "html_tag": "article",
+                "content_width": "full",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "0000045",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "We leave you with a plan",
+                    "header_size": "h3"
+                  },
+                  "elements": [],
+                  "isInner": false
+                },
+                {
+                  "id": "0000046",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We test the repair, clean our work area, and point out any practical maintenance or follow-up steps.</p>"
+                  },
+                  "elements": [],
+                  "isInner": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000004d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "cl-band",
+        "html_tag": "section",
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "000004a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Where we work",
+            "header_size": "h2"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000004b",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Copperline serves Portland, Beaverton, and Milwaukie in this fictional local service area.</p>"
+          },
+          "elements": [],
+          "isInner": false
+        },
+        {
+          "id": "000004c",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Check your project with us",
+            "link": {
+              "url": "/contact/#quote",
+              "is_external": "",
+              "nofollow": ""
+            },
+            "_css_classes": "cl-button"
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ]
+    }
+  ],
+  "page_settings": []
+}
